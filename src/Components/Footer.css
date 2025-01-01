@@ -1,0 +1,15 @@
+.footerclass{
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    position: fixed;
+   
+   
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

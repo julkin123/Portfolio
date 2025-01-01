@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+h1{
+    font-style: oblique;
+}
+.quote{
+
+    padding: 10px;
+}
+
+.maincontainer{
+
+    width: 100%;
+    align-items: center;
+    
+}
