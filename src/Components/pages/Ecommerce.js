@@ -1,10 +1,10 @@
 import React from 'react'
 import "./common.css"
-
+import Button from 'react-bootstrap/Button';
 function Ecommerce() {
     return (
         <div className='container-fluid'>
-        <div className='row text-center justify-content-center'>
+        <div className='row p-5 m-5 text-center justify-content-center'>
 
             <h1>Project Details</h1>
             <div className='justify-content-start text-start m-4'>
@@ -72,6 +72,13 @@ function Ecommerce() {
                     <li>API Testing: Postman</li>
                     
                 </ul>
+
+                <div className=' text-center '>
+                 
+            <Button style={{ }} className='m-1' href='https://github.com/julkin123/E-commerceWebsite.git'  variant="primary">Source code</Button>
+
+            <Button  style={{ }} className='m-1' href='https://documenter.getpostman.com/view/38208774/2sAYJ6BK59' variant="primary">Documentation </Button>
+            </div>
               
 
             </div>

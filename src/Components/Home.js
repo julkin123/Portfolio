@@ -13,14 +13,14 @@ function Home() {
       
        <div className="container">
 
-      <div className="row pt-5  mt-5 align-items-center ">
+      <div className="row pt-5  mt-5  align-items-center text-center ">
 
         <div className="col-md-6">
-          <Image width={400} height={400} src={image} roundedCircle />
+          <Image   height={400} src={image} roundedCircle />  	
           <h1 >Julkin George</h1>
         </div>
         <div className="col-md-6">
-          <h3 className='p-4'>"Hard work, consistency, and dedication will always outshine talent left idle."</h3>
+          <h3 className='p-4 mr-auto'>"Hard work, consistency, and dedication will always outshine talent left idle."</h3>
         </div>
       </div>
 
