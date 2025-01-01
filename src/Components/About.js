@@ -3,7 +3,7 @@ import "./About.css"
 function About() {
     return (
         <div className='container-fluid'>
-            <div className='  pt-5 m-5 about '>
+            <div className='  pt-5 m-2 mt-5 about '>
                 <h1>About Me</h1>
 
 
@@ -84,7 +84,7 @@ function About() {
                     <h6> Mysore, Karnataka, pin code 570027, India.</h6>
 
 
-                    <div className='p-4'>
+                    <div className='mt-5'>
 
                         <h6>(01/01/2024)-(02/05/2024)</h6>
                         <h2>Senior System Associate</h2>
@@ -105,7 +105,7 @@ function About() {
                         </h3>
 
                     </div>
-                    <div className='p-4'>
+                    <div className='mt-5'>
 
                         <h6>(01/01/2023)-(31/12/2023)</h6>
                         <h2>System Associate</h2>
@@ -119,7 +119,7 @@ function About() {
                                 API Integration: Assisted in implementing and integrating REST APIs for seamless communication between modules.
                             </li>
                         </ul>
-                    </div><div className='p-4'>
+                    </div><div className='mt-5'>
 
 
                         <h6>(07/03/2022)-(31/12/2022)</h6>
@@ -138,7 +138,7 @@ function About() {
 
                 </div>
                 <h1>Education</h1>
-                <div className='p-4 skillList'>
+                <div className='mt-5 skillList'>
 
                     <table className='table'>
                         <thead>

@@ -4,14 +4,14 @@ import Button from 'react-bootstrap/Button';
 function EmployeeManagement() {
     return (
         <div className='container-fluid'>
-        <div className='row p-5 m-5 text-center justify-content-center'>
+        <div className='row pt-5 m-2 mt-5 text-center justify-content-center'>
             <h1>Project Details</h1>
 
-            <div className='justify-content-start text-start m-4'>
+            <div className='justify-content-start text-start  '>
                 <h4> The Employee Management System (EMS) is a web-based application designed to streamline the management of employee data. It allows HR teams, managers, and administrators to perform various CRUD (Create, Read, Update, Delete) operations on employee records. This system is equipped with features for viewing, adding, updating, and deleting employee information, as well as sorting employees based on different attributes such as job level.
                 </h4>
-                <h3 className='m-5 '>Key Features:</h3>
-                <ul className='m-5'>
+                <h3 className='mt-5 '>Key Features:</h3>
+                <ul className=' '>
                     <li>Get All Employees: Fetches and displays a list of all employees in the system, making it easy to view the entire employee roster.</li>
                     <li>Get Employee by ID: Allows users to retrieve detailed information for a specific employee using their unique employee ID.</li>
                     <li>Create Employee: Facilitates the addition of new employee records to the database with necessary details like name, job title, department, salary, etc.</li>
@@ -25,9 +25,9 @@ function EmployeeManagement() {
                 
                
 
-                <h3 className='m-5 '>Technology Used:</h3>
+                <h3 className='mt-5'>Technology Used:</h3>
 
-                <ul className='m-5'>
+                <ul className=''>
                     <li>Framework: Spring Boot</li>
                     <li>Database: MySQL</li>
                     <li>ORM: Hibernate</li>

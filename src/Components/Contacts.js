@@ -7,7 +7,7 @@ function Contacts() {
     return (
         <div className='container-fluid'>
 
-        <div className='row pt-5 m-5 text-center justify-content-center mainclass'>
+        <div className='row pt-5 m-2 mt-5 text-center justify-content-center mainclass'>
             <h1>Contact Details</h1>
 
             <div className='pt-5 ontact  '  >
