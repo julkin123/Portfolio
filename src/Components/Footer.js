@@ -4,7 +4,7 @@ import { insta, linkedin, git } from "./Constants"
 
 function Footer() {
   return (
-    <footer className='footerclass  bg-light p-2 '>
+    <footer style={{height:50}} className='footerclass  bg-light p-2 '>
 
 
 

@@ -5,9 +5,9 @@ import "./Contacts.css"
 import Button from 'react-bootstrap/Button';
 function Contacts() {
     return (
+        <div className='container-fluid'>
 
-
-        <div className='root text-center justify-content-center mainclass'>
+        <div className='row pt-5 m-5 text-center justify-content-center mainclass'>
             <h1>Contact Details</h1>
 
             <div className='pt-5 ontact  '  >
@@ -32,15 +32,15 @@ function Contacts() {
 
                         <tr>
                             <td><h3>LinkedIn</h3></td>
-                            <td><h3>: <Button className='buttonclass1 ' href='https://www.linkedin.com/in/julkin-george-983619333/' variant="primary">Go</Button></h3></td>
+                            <td><h3>: <Button style={{width:60,height:30}} className=' ' href='https://www.linkedin.com/in/julkin-george-983619333/' variant="primary">Go</Button></h3></td>
                         </tr>
                         <tr>
                             <td><h3>GitHub</h3></td>
-                            <td><h3>: <Button className='buttonclass1' href='https://github.com/julkin123?tab=repositories' variant="primary">Go</Button></h3></td>
+                            <td><h3>: <Button style={{width:60,height:30}} className='' href='https://github.com/julkin123?tab=repositories' variant="primary">Go</Button></h3></td>
                         </tr>
                         <tr>
                             <td><h3>Instagram</h3></td>
-                            <td><h3>: <Button className='buttonclass1' href='https://www.instagram.com/julkin_george/' variant="primary">Go</Button></h3></td>
+                            <td><h3>: <Button style={{width:60,height:30}} className='' href='https://www.instagram.com/julkin_george/' variant="primary">Go</Button></h3></td>
                         </tr>
                     </tbody>
                 </table>
@@ -49,6 +49,7 @@ function Contacts() {
 
             </div>
 
+            </div>
 
         </div>
     )

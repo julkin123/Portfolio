@@ -3,7 +3,8 @@ import "./common.css"
 
 function Ecommerce() {
     return (
-        <div className='root text-center justify-content-center'>
+        <div className='container-fluid'>
+        <div className='row text-center justify-content-center'>
 
             <h1>Project Details</h1>
             <div className='justify-content-start text-start m-4'>
@@ -75,7 +76,8 @@ function Ecommerce() {
 
             </div>
             <h3 className='m-5 '>.....</h3>
-
+            </div>
+            
         </div>
     )
 }
