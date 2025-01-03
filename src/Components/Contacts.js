@@ -32,7 +32,7 @@ function Contacts() {
 
                         <tr>
                             <td><h3>LinkedIn</h3></td>
-                            <td><h3>: <Button   href='https://www.linkedin.com/in/julkin-george-983619333/' variant="primary">Go</Button></h3></td>
+                            <td><h3>: <Button   href='https://www.linkedin.com/in/julkin-george/' variant="primary">Go</Button></h3></td>
                         </tr>
                         <tr>
                             <td><h3>GitHub</h3></td>
